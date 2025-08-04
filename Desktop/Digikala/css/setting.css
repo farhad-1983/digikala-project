@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    perspective: 800px;
+    position: relative;
+}
+
+@font-face {
+    font-family: Yekan;
+    src: url(../fonts/fa/iranyekanwebregular.woff2);
+}
+@font-face {
+    font-family: YekanNumber;
+    src: url(../fonts/fa/Yekan.ttf.ttf);
+}
+:root{
+   --font-family:Yekan;
+   --font-number:YekanNumber;
+}
+.wrapper{
+    width: 100%;
+}
+.border-left{
+    border-left: 1px solid lightgray;
+}
+.border-top{
+    border-top: 1px solid lightgray;
+}
+.border-bottom{
+    border-bottom: 1px solid lightgray;
+}
