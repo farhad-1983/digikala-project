@@ -1,0 +1,47 @@
+.gallery{
+    width: 100%;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    .gallery-center{
+        width: 80%;
+        height: 100%;
+        .gallery-center-head{
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+            h2{
+                margin: 0 auto;
+                font-family: var(--font-family);
+                font-size: 18px;
+                font-weight: normal;
+            }
+        }
+        .gallery-center-top{
+            width: 100%;
+            height: 50%;
+            display: flex;
+            justify-content: center;
+          .gallery-center-top-product{
+            width: fit-content;
+            height: 100%;
+            padding: 10px;
+              img{
+                width: 90px;
+                height: 90px;
+                margin-bottom: 10px;
+            }
+            h3{
+                text-align: center;
+                font-family: var(--font-family);
+                font-size: 12px;
+                font-weight: normal;
+            }
+            a{
+                text-decoration: none;
+                color: #2b2b2b;
+            }
+          }
+        }
+    }
+}
