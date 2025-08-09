@@ -34,7 +34,5 @@
             }
         }
     }
-    &:hover .category-center .category-center-item img{
-        transform: scale(2,2);
-    }
+   
 }

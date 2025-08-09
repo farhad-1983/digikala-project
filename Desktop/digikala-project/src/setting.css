@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .body{
     perspective: 800px;
@@ -9,11 +10,11 @@
 
 @font-face {
     font-family: Yekan;
-    src: url(../fonts/fa/iranyekanwebregular.woff2);
+    src: url(../src/fonts/fa/iranyekanwebregular.woff2);
 }
 @font-face {
     font-family: YekanNumber;
-    src: url(../fonts/fa/Yekan.ttf.ttf);
+    src: url(../src/fonts/fa/Yekan.ttf.ttf);
 }
 :root{
    --font-family:Yekan;
